@@ -72,7 +72,7 @@ print(f"Missing values: {missing_value}")
 
 # Save cleaned dataset
 print("\nStep 7: Saving cleaned dataset...")
-output_file = PROCESS_DATA_DIR / "weather_cleaned_csv"
+output_file = PROCESS_DATA_DIR / "weather_cleaned.csv"
 weather_df.to_csv(output_file, index=False)
 print(f"Cleaned data saved to: {output_file}")
 
